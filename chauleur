@@ -1,0 +1,11 @@
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bienvenue</title>
+</head>
+<body>
+  <h1>Bienvenue sur mon site !</h1>
+  <p>Ce site est hébergé gratuitement avec GitHub Pages.</p>
+</body>
+</html>
