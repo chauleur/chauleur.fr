@@ -1,118 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chauleur.fr</title>
   <style>
-    /*Reset CSS*/
- *{
-   .container {
-       width: 80%;
-       max-width: 800px;
-   }
-   { margin : 2% ;
-    padding : 1% ;
-    font-family : Avenir;
- }
-  nav ul{
-          list-style-type : none;
-          justify-content : center; 
-          padding : 0;
-          margin: 0;
+    /* Reset CSS */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Avenir, sans-serif;
     }
 
-  nav ul:: after{
-              content : ""; 
-              display : table;
-              clear : both;
-  }
-    nav li {
-          float : left;
-          width : 25% ;
-          text-align : center ;
-  }
+    body {
+      background-color: #FFD102;
+      text-align: center;
+    }
 
     nav {
-        width : 100%;
-        margin : 0 auto;
-   }
-   
-    nav a { 
-          display : block;
-          text-decoration : none;
-          color: black;
-          border-bottom: 2px solid transparent;
-          padding: 15px 0px;
+      width: 100%;
+      background-color: #FFD102;
+      position: sticky;
+      top: 0;
     }
-     nav a: hover { 
-                color : orange;
-                border-bottom :  2px solid gold; 
-                 }
-    
-      nav {
-          width : 100%;
-          margin : 0 auto;
-          background-color : #FFD102;
-          position: sticky;
-          top: 0px;
-}
-  body {
-    background-color :  #FFD102;
-  }
-  
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav li {
+      width: 25%;
+      text-align: center;
+    }
+
+    nav a {
+      display: block;
+      text-decoration: none;
+      color: black;
+      padding: 15px 0;
+      border-bottom: 2px solid transparent;
+      transition: all 0.3s;
+    }
+
+    nav a:hover {
+      color: orange;
+      border-bottom: 2px solid gold;
+    }
+
+    h1 {
+      margin: 20px 0;
+    }
+
+    img {
+      margin: 10px;
+      border-radius: 10px;
+    }
   </style>
 </head>
-  <body>
-    <nav>
-        <ul>
-            <li><a href="#">Accueil</a></li>
-            <li><a href="#">À propos</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#">Accueil</a></li>
+      <li><a href="#">À propos</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <h1>Nathan Chauleur</h1>
+  <p>Voici le lien à suivre en attendant la fin de la création de mon blog @nathan.chlr</p>
+  <p><a href="https://www.instagram.com/nathan.chlr/">Lien de mon compte</a></p>
+
+  <img src="IMG_4043.HEIC" width="400" height="341" alt="Image 1">
+  <img src="IMG_4068.JPG" width="400" height="750" alt="Image 2">
 </body>
-
-        </nav>
-      <center>
-    <h1>Nathan Chauleur</h1>
-    <p>Voici le lien à suivre en attendant la fin de la création de mon blog @nathan.chlr</p>
-    <a href="https://www.instagram.com/nathan.chlr/">Lien de mon compte </a>
-     </center>
-     </center>
-      <img src="IMG_4043.HEIC"width="400" height="341"> 
-     </center>
-      <img src="IMG_4068.JPG"width="400" height="750">
-    </center>
-  </body>
-<style>
-ul {
-        margin : 0 ;
-        padding : 0 ;
-        list-style-type : none ;
-    }
-
-
-    nav {
-        background-color: #333;
-        text-align: center;
-    }
-
-    nav ul li {
-        display: inline;
-    }
-
-
-    nav ul li a {
-        display: inline-block;
-        padding: 10px 20px;
-        color: #fff;
-        text-decoration: none;
-    }
-
-    nav ul li a:hover {
-        background-color: #555;
-  }
-  </style>
 </html>
