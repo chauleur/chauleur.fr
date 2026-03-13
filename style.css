@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Avenir', sans-serif;
+}
+
+body {
+  background-color: #E6D5B8; /* Beige clair */
+  color: #1A1A1A; /* Noir pour le texte */
+  line-height: 1.6;
+  text-align: center;
+}
+
+nav {
+  width: 100%;
+  background-color: #3C2A21; /* Marron foncé */
+  position: sticky;
+  top: 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  width: 25%;
+  text-align: center;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  color: #F9F5F0; /* Blanc cassé */
+  padding: 15px 0;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #D4A574; /* Marron doré */
+  border-bottom: 2px solid #D4A574;
+}
+
+h1 {
+  margin: 30px 0 10px;
+  font-size: 2.5em;
+  color: #3C2A21; /* Marron foncé */
+}
+
+.sous-titre {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #D4A574; /* Marron doré */
+}
+
+.description {
+  max-width: 600px;
+  margin: 0 auto 20px;
+  padding: 0 20px;
+  color: #1A1A1A;
+}
+
+.lien-reseau a {
+  color: #3C2A21;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.lien-reseau a:hover {
+  color: #D4A574;
+}
+
+.galerie-accueil {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.galerie-accueil img {
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: #F9F5F0; /* Fond blanc cassé pour les images */
+  padding: 5px;
+}
+
+.galerie-accueil img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #3C2A21;
+  color: #F9F5F0;
+  font-size: 0.9em;
+}
+
+/* Animations */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Bouton (optionnel) */
+.bouton {
+  display: inline-block;
+  background-color: #3C2A21;
+  color: #F9F5F0;
+  padding: 10px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 20px 0;
+  transition: background-color 0.3s;
+}
+
+.bouton:hover {
+  background-color: #D4A574;
+}
