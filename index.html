@@ -3,66 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nathan Chauleur</title>
-  <link rel="icon" type="image/png" href="favicon.png"> 
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Avenir, sans-serif;
-    }
-
-    body {
-      background-color: #FFD102;
-      text-align: center;
-    }
-
-    nav {
-      width: 100%;
-      background-color: #FFEC00;
-      position: sticky;
-      top: 0;
-    }
-
-    nav ul {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-    }
-
-    
-    nav li {
-      width: 25%;
-      text-align: center;
-    }
-
-    nav a {
-      display: block;
-      text-decoration: none;
-      color: black;
-      padding: 15px 0;
-      border-bottom: 2px solid transparent;
-      transition: all 0.3s;
-    }
-
-    nav a:hover {
-      color: orange;
-      border-bottom: 2px solid gold;
-    }
-
-    h1 {
-      margin: 20px 0;
-    }
-
-    img {
-      margin: 10px;
-      border-radius: 10px;
-    }
-  </style>
+  <title>Nathan Chauleur - Classe Prépa</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-
   <nav>
     <ul>
       <li><a href="index.html">Accueil</a></li>
@@ -72,13 +17,25 @@
     </ul>
   </nav>
 
-  <h1>Nathan Chauleur</h1>
-  <p>V</p>
-  <p><a href="https://www.instagram.com/nathan.chlr/">Lien de mon compte</a></p>
+  <main>
+    <h1>Nathan Chauleur</h1>
+    <p class="sous-titre">Mon parcours en classe préparatoire</p>
+    <p class="description">
+      Étudiant en classe préparatoire, je partage ici mes projets, mes réflexions et mon expérience.
+    </p>
+    <a href="galerie.html" class="bouton">Découvrir mes projets</a>
 
-  <img src="" width="400" height="341" alt="Image 1">
-  <img src="" width="400" height="750" alt="Image 2">
+    <div class="galerie-accueil">
+      <img src="assets/ton-image1.jpg" width="400" height="341" alt="Projet 1">
+      <img src="assets/ton-image2.jpg" width="400" height="750" alt="Projet 2">
+    </div>
+  </main>
 
+  <footer>
+    <p>&copy; 2026 Nathan Chauleur. Tous droits réservés.</p>
+  </footer>
+
+  <script src="scripts/script.js"></script>
 </body>
 </html>
 
